@@ -1,0 +1,10 @@
+{
+    "name": "express server",
+    "version": "0.0.1",
+    "description": "NodeJS + expressjs",
+    "main": "server.js",
+    "author": "ilkka.nisula@gmail.com",
+    "dependencies": {
+        "express": "*"
+    }
+}
