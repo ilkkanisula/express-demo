@@ -4,7 +4,11 @@ RUN apt-get update -y
 RUN apt-get install -y nodejs npm git git-core
 
 RUN ln -s /usr/bin/nodejs /usr/bin/node
+
 # add start script
 COPY start.sh /tmp/
 RUN chmod +x /tmp/start.sh
+
+
+EXPOSE 8200
 CMD ./tmp/start.sh
