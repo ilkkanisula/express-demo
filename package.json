@@ -1,10 +1,26 @@
 {
-    "name": "express server",
-    "version": "0.0.1",
-    "description": "NodeJS + expressjs",
-    "main": "server.js",
-    "author": "ilkka.nisula@gmail.com",
-    "dependencies": {
-        "express": "*"
-    }
+  "name": "express_server",
+  "version": "0.0.1",
+  "description": "NodeJS + expressjs",
+  "main": "server.js",
+  "author": "ilkka.nisula@gmail.com",
+  "dependencies": {
+    "express": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilkkanisula/express-demo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilkkanisula/express-demo/issues"
+  },
+  "homepage": "https://github.com/ilkkanisula/express-demo#readme"
 }
